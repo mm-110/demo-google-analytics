@@ -5,55 +5,45 @@ import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
 
 <BaseLayout title={SITE_TITLE} description={SITE_DESCRIPTION}>
 	<main>
-		<h1>🧑‍🚀 Hello, Astronaut!</h1>
+		<h1>📊 GTM & GA Demo</h1>
 		<p>
-			Welcome to the official <a href="https://astro.build/">Astro</a>
-			blog starter template. This template serves as a lightweight, minimally-styled
-			starting point for anyone looking to build a personal website, blog,
-			or portfolio with Astro.
+			Welcome to the <strong
+				>Google Tag Manager & Google Analytics Demo</strong
+			> project.
 		</p>
 		<p>
-			This template comes with a few integrations already configured in
-			your
-			<code>astro.config.mjs</code> file. You can customize your setup with
-			<a href="https://astro.build/integrations">Astro Integrations</a> to
-			add tools like Tailwind, React, or Vue to your project.
+			This website serves as a practical sandbox to demonstrate and verify
+			the integration of
+			<strong>Google Tag Manager (GTM)</strong> and <strong
+				>Google Analytics (GA4)</strong
+			> within a modern
+			<a href="https://astro.build/">Astro</a> application.
 		</p>
-		<p>Here are a few ideas on how to get started with the template:</p>
+		<p>
+			The primary goal is to provide a clean, controlled environment to
+			test tracking implementations, debug data layer events, and ensure
+			that analytics data is flowing correctly.
+		</p>
+		<p>Here's what you can explore:</p>
 		<ul>
-			<li>Edit this page in <code>src/pages/index.astro</code></li>
 			<li>
-				Edit the site header items in <code
-					>src/components/Header.astro</code
-				>
+				<strong>GTM Integration:</strong> Verify how the GTM container code
+				is injected into the
+				<code>&lt;head&gt;</code> and <code>&lt;body&gt;</code> of every
+				page.
 			</li>
 			<li>
-				Add your name to the footer in <code
-					>src/components/Footer.astro</code
-				>
+				<strong>Data Layer:</strong> Check the console and GTM Preview mode
+				to see how events are pushed to the data layer.
 			</li>
 			<li>
-				Check out the included blog posts in <code
-					>src/content/blog/</code
-				>
-			</li>
-			<li>
-				Customize the blog post page layout in <code
-					>src/layouts/BlogPost.astro</code
-				>
+				<strong>GA4 Tracking:</strong> Observe real-time data collection
+				in Google Analytics as you navigate the site.
 			</li>
 		</ul>
 		<p>
-			Have fun! If you get stuck, remember to
-			<a href="https://docs.astro.build/">read the docs</a>
-			or <a href="https://astro.build/chat">join us on Discord</a> to ask questions.
-		</p>
-		<p>
-			Looking for a blog template with a bit more personality? Check out
-			<a href="https://github.com/Charca/astro-blog-template"
-				>astro-blog-template</a
-			>
-			by <a href="https://twitter.com/Charca">Maxi Ferreira</a>.
+			Check out the <a href={import.meta.env.BASE_URL + "blog"}>Blog</a> for
+			detailed guides on how this integration was built.
 		</p>
 	</main>
 </BaseLayout>
