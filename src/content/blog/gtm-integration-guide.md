@@ -2,7 +2,7 @@
 title: 'How to Integrate Google Tag Manager in Astro'
 description: 'A step-by-step guide on how we integrated GTM and GA4 into this Astro project using a reusable BaseLayout.'
 pubDate: 'Nov 24 2025'
-heroImage: '/blog-placeholder-about.jpg'
+heroImage: '../../assets/blog-placeholder-about.jpg'
 ---
 
 Integrating **Google Tag Manager (GTM)** into an Astro project is a straightforward process, but doing it correctly ensures that your tracking is robust and doesn't clutter your codebase. In this project, we took a component-based approach.

@@ -2,7 +2,7 @@
 title: 'Understanding GA4 Events'
 description: 'A deep dive into how Google Analytics 4 handles events and how to structure them.'
 pubDate: 'Nov 25 2025'
-heroImage: '/blog-placeholder-2.jpg'
+heroImage: '../../assets/blog-placeholder-2.jpg'
 ---
 
 Google Analytics 4 (GA4) is entirely event-based. Unlike Universal Analytics, which had different hit types (pageview, event, social, etc.), everything in GA4 is an event.

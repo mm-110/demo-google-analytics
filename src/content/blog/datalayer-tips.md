@@ -2,7 +2,7 @@
 title: 'Data Layer Best Practices'
 description: 'How to keep your Data Layer clean, organized, and reliable for GTM.'
 pubDate: 'Nov 26 2025'
-heroImage: '/blog-placeholder-3.jpg'
+heroImage: '../../assets/blog-placeholder-3.jpg'
 ---
 
 The **Data Layer** is the central nervous system of your tracking setup. It's a JavaScript object that passes information from your website to your tag manager (GTM).
