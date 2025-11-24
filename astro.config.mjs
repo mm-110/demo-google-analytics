@@ -6,6 +6,7 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://example.com',
+	site: 'https://USERNAME.github.io', // TODO: Replace USERNAME with your GitHub username
+	base: '/REPO_NAME', // TODO: Replace REPO_NAME with your repository name
 	integrations: [mdx(), sitemap()],
 });
