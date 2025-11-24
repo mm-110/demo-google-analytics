@@ -6,7 +6,7 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://USERNAME.github.io', // TODO: Replace USERNAME with your GitHub username
-	base: '/REPO_NAME', // TODO: Replace REPO_NAME with your repository name
+	site: 'https://mm-110.github.io',
+	base: '/demo-google-analytics',
 	integrations: [mdx(), sitemap()],
 });
